@@ -1,2 +1,15 @@
-# Movie-API
-Auto’s Free Movie API :) will be updated so just use raw GitHub link to the JavaScript file, tutorial in README!!
+<b>This is legal, the "VidSrc" project is legal and the owner pays for the Movies.</b>
+# Movie API
+Auto's Free Movie API consists of using the VidSrc project and TheMovieDB api.
+## JavaScript
+```html
+<script src="https://github.com/FreakyFunctions/Movie-API/raw/main/v1/api.js"></script>
+```
+## C++
+soon
+## C#
+soon
+## LUA
+soon
+## PHP
+soon
