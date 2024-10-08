@@ -145,26 +145,4 @@ class Program
             return null;
         }
     }
-
-    static async Task Main(string[] args)
-    {
-        Console.WriteLine("Auto's Free Movie API v1");
-
-        string type = "";
-        string id = "";
-
-        AFMA afma = new AFMA();
-
-        if (string.IsNullOrEmpty(type) && string.IsNullOrEmpty(id))
-        {
-            JObject movieGenres = afma.genre.GetMovie();
-            JObject tvGenres = afma.genre.GetTv();
-        }
-        else
-        {
-            string embedLink = afma.Get(type, id);
-            JObject details = await afma.Details(type, id);
-            JObject recommendations = await afma.Recommended(type, id);
-        }
-    }
 }
