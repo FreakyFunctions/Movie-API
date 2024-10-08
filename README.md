@@ -15,7 +15,9 @@ Example code:
 <br>
 <a href="https://github.com/FreakyFunctions/Movie-API/blob/main/v1/api_example.cpp">api_example.cpp</a>
 ## C#
-soon
+Include C# file, no example cuz C# is easy.
+<br>
+<a href="https://github.com/FreakyFunctions/Movie-API/raw/main/v1/api.cs">api.cs</a>
 ## LUA
 soon
 ## PHP
